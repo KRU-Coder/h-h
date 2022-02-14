@@ -1,0 +1,194 @@
+@media only screen and (max-width: 540px) {
+  body {
+    overflow-x: hidden;
+  }
+  body h2 {
+    font-size: 32px;
+  }
+  header .navbar .navbar-brand {
+    display: none;
+  }
+  header .navbar .navbar-toggler:focus {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  header .navbar .navbar-toggler-icon {
+    width: 20px;
+    height: 2px;
+    background-color: #ff7212;
+    margin: 5px 0;
+    display: block;
+  }
+  .main-slider {
+    height: auto !important;
+    padding-bottom: 25px;
+  }
+  .main-slider .slider-form-wrapper {
+    position: static;
+    margin-top: 0;
+  }
+  .main-slider .btn-warning {
+    margin-top: 15px;
+  }
+  .main-about .title {
+    margin-top: 15px;
+  }
+  .main-about .title-big {
+    font-size: 40px;
+  }
+  .main-about .exper {
+    position: static !important;
+  }
+  .main-about .cll-us, .main-about .eml-us {
+    position: static;
+  }
+  .main-about .cll-us .num, .main-about .eml-us .num {
+    font-size: 26px;
+  }
+  .main-about .eml-us {
+    margin: 0;
+  }
+  .guarentee {
+    padding: 25px 0;
+  }
+  .guarentee .detail {
+    margin-bottom: 25px;
+  }
+  .main-services {
+    padding: 25px 0;
+  }
+  .main-services .owl-nav {
+    display: none;
+  }
+  .review-sec .rev-top {
+    margin: 0;
+  }
+  .review-sec .rev-top .btn {
+    position: static !important;
+  }
+  .review-sec .lft-img {
+    position: static !important;
+  }
+  .review-sec .review-main {
+    margin-top: 15px;
+  }
+  .review-sec .review-main .title::before {
+    font-size: 45px !important;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .footer-top {
+    display: none;
+  }
+  footer .f-marg {
+    padding-top: 25px;
+  }
+  footer .footer-bottom .f-bottom-social ul li {
+    margin-right: 10px;
+  }
+  .big-marg {
+    display: none;
+  }
+  .carrer-card {
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  body {
+    overflow-x: hidden;
+  }
+  body h2 {
+    font-size: 32px;
+  }
+  header .navbar .navbar-brand {
+    display: none;
+  }
+  header .navbar .navbar-toggler:focus {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  header .navbar .navbar-toggler-icon {
+    width: 20px;
+    height: 2px;
+    background-color: #ff7212;
+    margin: 5px 0;
+    display: block;
+  }
+  .main-slider {
+    height: auto !important;
+    padding-bottom: 25px;
+  }
+  .main-slider .slider-form-wrapper {
+    position: static;
+    margin-top: 0;
+  }
+  .main-slider .btn-warning {
+    margin-top: 15px;
+  }
+  .main-about .title {
+    margin-top: 15px;
+  }
+  .main-about .title-big {
+    font-size: 40px;
+  }
+  .main-about .exper {
+    position: static !important;
+  }
+  .main-about .cll-us, .main-about .eml-us {
+    position: static;
+  }
+  .main-about .cll-us .num, .main-about .eml-us .num {
+    font-size: 26px;
+  }
+  .main-about .eml-us {
+    margin: 0;
+  }
+  .guarentee {
+    padding: 25px 0;
+  }
+  .guarentee .detail {
+    margin-bottom: 25px;
+  }
+  .main-services {
+    padding: 25px 0;
+  }
+  .main-services .owl-nav {
+    display: none;
+  }
+  .review-sec .rev-top {
+    margin: 0;
+  }
+  .review-sec .rev-top .btn {
+    position: static !important;
+  }
+  .review-sec .lft-img {
+    position: static !important;
+  }
+  .review-sec .review-main {
+    margin-top: 15px;
+  }
+  .review-sec .review-main .title::before {
+    font-size: 45px !important;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .footer-top {
+    display: none;
+  }
+  footer .f-marg {
+    padding-top: 25px;
+  }
+  footer .footer-bottom .f-bottom-social ul li {
+    margin-right: 10px;
+  }
+  .big-marg {
+    display: none;
+  }
+  .carrer-card {
+    margin-bottom: 25px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

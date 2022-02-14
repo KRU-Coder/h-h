@@ -1,0 +1,251 @@
+@import 'var';
+@media only screen and (max-width: 540px) {
+    body {
+        overflow-x: hidden;
+    h2{
+        font-size: 32px;
+    }
+    }
+
+
+    header{
+        .navbar{
+            .navbar-brand{
+                display: none;
+            }
+            .navbar-toggler{
+                &:focus{
+                    box-shadow: none;
+                }
+            }
+           
+            .navbar-toggler-icon{
+                width: 20px;
+                height: 2px;background-color: $orange;
+                margin: 5px 0;
+                display: block;
+            }
+        }
+    }
+    .main-slider{
+        height: auto !important;
+        padding-bottom: 25px;
+       .slider-form-wrapper{
+           position: static;
+           margin-top: 0;
+       }
+       .btn-warning{
+           margin-top: 15px;
+       }
+    }
+    .main-about{
+        .title{
+            margin-top: 15px;
+        }
+        .title-big{
+            font-size: 40px;
+        }
+        .exper{
+            position: static !important;
+        }
+        .cll-us, .eml-us{
+            position: static;
+            .num{
+                font-size: 26px;
+            }
+        }
+        .eml-us{
+            margin: 0;
+        }
+    }
+
+    .guarentee{
+        padding: 25px 0;
+        .detail{
+            margin-bottom: 25px;
+        }
+    }
+    .main-services{
+        padding: 25px 0;
+        .owl-nav{
+            display: none;
+        }
+    }
+    .review-sec{
+        .rev-top{
+            margin: 0;
+            .btn{
+                position: static !important;
+            }
+        }
+        .lft-img{
+            position: static !important;
+        }
+        .review-main{
+            margin-top: 15px;
+            .title::before{
+                font-size: 45px !important;
+            }
+        }
+    }
+    footer{
+        text-align: center;
+        .footer-top{
+            display: none;
+        }
+        .f-marg{
+            padding-top: 25px;
+        }
+.footer-bottom .f-bottom-social ul li{
+    margin-right: 10px;
+}
+    }
+
+.big-marg{
+    display: none;
+}
+.carrer-card{
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+//tablet
+
+
+@media only screen and (max-width: 840px) {
+    body {
+        overflow-x: hidden;
+    h2{
+        font-size: 32px;
+    }
+    }
+
+
+    header{
+        .navbar{
+            .navbar-brand{
+                display: none;
+            }
+            .navbar-toggler{
+                &:focus{
+                    box-shadow: none;
+                }
+            }
+           
+            .navbar-toggler-icon{
+                width: 20px;
+                height: 2px;background-color: $orange;
+                margin: 5px 0;
+                display: block;
+            }
+        }
+    }
+    .main-slider{
+        height: auto !important;
+        padding-bottom: 25px;
+       .slider-form-wrapper{
+           position: static;
+           margin-top: 0;
+       }
+       .btn-warning{
+           margin-top: 15px;
+       }
+    }
+    .main-about{
+        .title{
+            margin-top: 15px;
+        }
+        .title-big{
+            font-size: 40px;
+        }
+        .exper{
+            position: static !important;
+        }
+        .cll-us, .eml-us{
+            position: static;
+            .num{
+                font-size: 26px;
+            }
+        }
+        .eml-us{
+            margin: 0;
+        }
+    }
+
+    .guarentee{
+        padding: 25px 0;
+        .detail{
+            margin-bottom: 25px;
+        }
+    }
+    .main-services{
+        padding: 25px 0;
+        .owl-nav{
+            display: none;
+        }
+    }
+    .review-sec{
+        .rev-top{
+            margin: 0;
+            .btn{
+                position: static !important;
+            }
+        }
+        .lft-img{
+            position: static !important;
+        }
+        .review-main{
+            margin-top: 15px;
+            .title::before{
+                font-size: 45px !important;
+            }
+        }
+    }
+    footer{
+        text-align: center;
+        .footer-top{
+            display: none;
+        }
+        .f-marg{
+            padding-top: 25px;
+        }
+.footer-bottom .f-bottom-social ul li{
+    margin-right: 10px;
+}
+    }
+
+.big-marg{
+    display: none;
+}
+.carrer-card{
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  }
