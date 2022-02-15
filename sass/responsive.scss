@@ -1,5 +1,8 @@
 @import 'var';
 @media only screen and (max-width: 540px) {
+    html{
+        overflow-x: hidden;
+    }
     body {
         overflow-x: hidden;
     h2{
