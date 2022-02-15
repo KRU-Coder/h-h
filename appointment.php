@@ -77,7 +77,10 @@
               </div>
           </div>
           <div class="text-center">
-          <a href="" class="btn btn-warning py-2 px-2 mt-4" style="background-color: #026cc2;"><span class="d-block ps-5 wh-dot">Request Appointment</span></a></div>
+          <a href="" class="btn btn-warning py-2 px-3 mt-5" style="background-color:#026cc2;"><span class="d-block ps-5 pe-4 wh-dot">Request Appointment</span>
+
+    </a>
+        </div>
       </form>
 </div>
 

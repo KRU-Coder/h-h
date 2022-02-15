@@ -40,7 +40,7 @@
                         
                             <h5 class="text-secondary">Full time</h5>
                           
-                                <a href="" class="btn btn-warning p-2  mt-4"><span class="d-block ps-5 wh-dot">Apply Now</span></a>
+                                <a href="" class="btn btn-warning p-2  mt-4 shadow"><span class="d-block ps-5 pe-4 wh-dot">Apply Now</span></a>
                             </div>
                         </div>
                         <div class="col-6"></div>
@@ -57,7 +57,7 @@
                         
                             <h5 class="text-secondary">Full time</h5>
                           
-                                <a href="" class="btn btn-warning p-2 mt-4"><span class="d-block ps-5 wh-dot">Apply Now</span></a>
+                            <a href="" class="btn btn-warning p-2  mt-4 shadow"><span class="d-block ps-5 pe-4 wh-dot">Apply Now</span></a>
                             </div>
                         </div>
                         <div class="col-6"></div>
@@ -74,7 +74,7 @@
                         
                             <h5 class="text-secondary">Full time</h5>
                           
-                                <a href="" class="btn btn-warning p-2 mt-4"><span class="d-block ps-5 wh-dot">Apply Now</span></a>
+                            <a href="" class="btn btn-warning p-2  mt-4 shadow"><span class="d-block ps-5 pe-4 wh-dot">Apply Now</span></a>
                             </div>
                         </div>
                         <div class="col-6"></div>

@@ -102,7 +102,8 @@ body h3 {
 
 .btn-warning .wh-dot::after {
   position: absolute;
-  left: 0px;
+  left: -10px;
+  top: 3px;
   width: 35px;
   height: 35px;
   background-color: #FFFFFF;
@@ -112,14 +113,14 @@ body h3 {
 
 .btn-warning .wh-dot::before {
   position: absolute;
-  left: 5px;
-  top: 0px;
+  left: -5px;
+  top: 3px;
   z-index: 22;
   content: "\f061";
   font-family: "FontAwesome";
   color: #026cc2;
   font-size: 18px;
-  padding: 5px 4px;
+  padding: 5px 0px;
 }
 
 hr {
@@ -285,6 +286,10 @@ hr {
 .main-slider .slider-form-wrapper .slider-form .form-select:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+.main-slider .slider-form-wrapper .slider-form .wh-dot::before {
+  right: 10px;
 }
 
 .main-slider .slider-form-wrapper .slider-form option {
@@ -987,9 +992,14 @@ footer .footer-top .footer-top-box .dtl h6 {
   font-size: 18px;
 }
 
+.carrer-card .wh-dot:before {
+  left: 6px;
+  top: -4px;
+}
+
 .carrer-card .wh-dot:after {
   left: -9px;
-  top: -8px;
+  top: -9px;
   width: 45px;
   height: 45px;
   border-radius: 50px;

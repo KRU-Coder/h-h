@@ -51,7 +51,7 @@
                     <input type="text" class="form-control p-3" id="" placeholder="Service Needed:">
                   </div>
                   <div class="col-sm-12 col-lg-4 text-end">
-                    <a href="" class="btn btn-warning py-2 px-3 "><span class="d-block pe-5 wh-dot">NEXT STER !</span>
+                    <a href="" class="btn btn-warning py-2 px-2 "><span class="d-block ps-3  pe-5 wh-dot">NEXT STER !</span>
 
                     </a>
                   </div>
@@ -326,7 +326,7 @@
         </div>
         <img src="./images/man-1.png" alt="" class="img-fluid lft-img position-absolute">
         
-        <a href="" class="btn btn-warning py-2 px-3 position-absolute "><span class="d-block ps-5 wh-dot">Apply Now !</span></a>
+        <a href="" class="btn btn-warning py-2 px-3 position-absolute "><span class="d-block ps-5 pe-4 wh-dot">Apply Now !</span></a>
 
 
       </div>
@@ -374,7 +374,7 @@
         <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Your Message"></textarea>
       </div>
     </div>
-    <a href="" class="btn btn-warning py-2 px-4 mt-5 "><span class="d-block ps-5 wh-dot">SEND MESSAGE !</span>
+    <a href="" class="btn btn-warning py-2 px-3 mt-5 "><span class="d-block ps-5 pe-4 wh-dot">SEND MESSAGE !</span>
 
     </a>
   </form>

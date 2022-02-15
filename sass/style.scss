@@ -94,7 +94,8 @@ body {
     position: relative;
     &::after {
       position: absolute;
-      left: 0px;
+      left: -10px;
+      top: 3px;
       width: 35px;
       height: 35px;
       background-color: $white;
@@ -103,14 +104,14 @@ body {
     }
     &::before {
       position: absolute;
-      left: 5px;
-      top: 0px;
+      left: -5px;
+    top: 3px;
       z-index: 22;
       content: "\f061";
       font-family: "FontAwesome";
       color: $light-blue;
       font-size: 18px;
-      padding: 5px 4px;
+      padding: 5px 0px;
     }
   }
 }
@@ -271,6 +272,11 @@ hr{
         color: $white;
         &:focus {
           box-shadow: none;
+        }
+      }
+      .wh-dot{
+        &::before{
+          right: 10px;
         }
       }
       option{
@@ -969,9 +975,13 @@ footer{
     font-size: 18px;
   }
   .wh-dot{
+    &:before{
+      left: 6px;
+      top: -4px;
+    }
     &:after{
       left: -9px;
-      top: -8px;
+      top: -9px;
       width: 45px;
       height: 45px;
       border-radius: 50px;
