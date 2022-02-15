@@ -83,7 +83,7 @@ body {
   font-family: agency;
   font-size: 25px;
   &:hover {
-    background-color: $orange;
+    background-color: $dark-blue;
     color: $white;
   }
   &:focus {
@@ -94,7 +94,7 @@ body {
     position: relative;
     &::after {
       position: absolute;
-      right: 0px;
+      left: 0px;
       width: 35px;
       height: 35px;
       background-color: $white;
@@ -103,12 +103,14 @@ body {
     }
     &::before {
       position: absolute;
-      right: 5px;
+      left: 5px;
       top: 0px;
       z-index: 22;
       content: "\f061";
       font-family: "FontAwesome";
-      color: $dark-blue;
+      color: $light-blue;
+      font-size: 18px;
+      padding: 5px 4px;
     }
   }
 }
@@ -197,6 +199,17 @@ hr{
 // slider-section
 .main-slider {
   height: 100vh;
+  .wh-dot{
+    &:after{
+      right: 0 !important;
+      left: initial;
+    }
+    &::before{
+      right: 5px;
+      left: initial;
+    }
+
+  }
   .owl-theme {
     .owl-nav {
       button {
@@ -347,7 +360,7 @@ hr{
     .exper {
       background-color: $light-blue;
       bottom: -66px;
-      left: 205px;
+      left: 265px;
       z-index: 3;
       &::after{
           position: absolute;
@@ -376,6 +389,15 @@ color: $white;
         position: absolute;
         bottom: -155px;
         right: 17px;
+        &::after{
+          position: absolute;
+          top: 34px;
+          right: -13px;
+          width: 3px;
+          height: 50%;
+          background-color: $gray;
+          content: '';
+        }
         i{
             font-size: 40px;
             color: $orange;
@@ -540,7 +562,9 @@ color: $white;
 
 // review section
 .review-sec, .review-inner{
-background-color: #F6F6F6;
+// background-color: #F6F6F6;
+background-size: cover !important;
+background-position: top center !important;
 // .row{
 //   --bs-gutter-x: 6.5rem;
 // }
@@ -558,9 +582,20 @@ padding-bottom: 85px ;
     z-index: 8;
     background-color: $light-blue;
   }
+  .btn-warning{
+    &:hover{
+      background-color: $orange !important;
+    }
+    
+  }
+  .wh-dot{
+    &::before{
+      content: '\f135';
+    }
+  }
   .lft-img{
     right: 0px;
-    top: 0px;
+    top: -15px;
   }
   .rev-top-left{
     .tile{
@@ -587,8 +622,6 @@ padding-bottom: 85px ;
   }
 }
 .review-wrapper{
-  background-size: cover !important;
-  background-position: top center !important;
   .review-main{
     .title{
       font-family: copper;
@@ -598,8 +631,8 @@ padding-bottom: 85px ;
       z-index: 88;
       &::before{
         position: absolute;
-        left: 0px;
-        bottom: 0px;
+        left: 132px;
+        bottom: -54px;
         content: '\f10d';
         font-family: 'FontAwesome';
         font-size: 85px;
@@ -661,6 +694,11 @@ padding-bottom: 85px ;
       box-shadow: none;
     }
   }
+  .wh-dot{
+    &::before{
+      content: '\f1d8';
+    }
+  }
   .quote-form-title{
     font-family: copper;
     font-size: 44px;
@@ -712,7 +750,7 @@ footer{
   background-position: center center !important;
   background-size: cover;
   .f-marg{
-    padding-top: 185px;
+    padding-top: 182px;
   }
   .f-about{
     color: $white;
@@ -747,7 +785,6 @@ footer{
   .opt-hrs{
     li{
       display: flex;
-      justify-content: space-between;
       color: $white;
       font-size: 18px;
       span{
@@ -763,9 +800,9 @@ footer{
     }
   }
   .footer-bottom{
-    padding-top: 45px;
+    padding: 25px 0;
     margin-top: 45px;
-    border-top: 2px solid $white;
+    border-top: 2px solid $black;
     p{
       color: $white;
       font-size: 18px;
@@ -902,6 +939,16 @@ footer{
 .appointment{
   .appoint-form{
     border-radius: 15px;
+    .btn-warning{
+      &:hover{
+        background-color: $orange !important;
+      }
+    }
+    .wh-dot{
+      &::before{
+        content: '\f1d8';
+      }
+    }
   }
   .form-control{
     border-radius: 10px;
@@ -917,7 +964,28 @@ footer{
   background-image: url(../images/carer-bg.png);
   background-position: bottom right;
   background-repeat: no-repeat;
+  .btn-warning{
+    border-radius: 50px;
+    font-size: 18px;
+  }
+  .wh-dot{
+    &:after{
+      left: -9px;
+      top: -8px;
+      width: 45px;
+      height: 45px;
+      border-radius: 50px;
+    }
+  }
   
+}
+//contact us page
+.contact-us-pg{
+  .wh-dot{
+    &::before{
+      content: '\f1d8';
+    }
+  }
 }
 
 

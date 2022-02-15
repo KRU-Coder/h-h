@@ -7,7 +7,7 @@
       <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
         <div class="f-about">
           <div class="f-logo">
-            <img src="./images/logo.jpg.png" alt="">
+            <img src="./images/logo.jpg.png" alt="" class="mb-4">
           </div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
         </div>
@@ -47,7 +47,7 @@
             <li><span>Monday-Friday</span> <span>: 80:00</span></li>
             <li><span>Saturday</span> <span>: Closed</span></li>
             <li><span>Sunday</span> <span>: Closed</span></li>
-            <li class="mt-5 get-dir"><a href="">Get Direction</a></li>
+            <li class="mt-4 get-dir"><a href="">Get Direction</a></li>
             <li><h5>1700 N Portland Ave Oklahoma City, OK 73107</h5></li>
           </ul>
         </div>
@@ -96,7 +96,7 @@
   <div class="footer-bottom">
     <div class="container">
       
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
         <p>Copyright © 2022 H&H Auto Tech, all rights reserved.</p>
       </div>

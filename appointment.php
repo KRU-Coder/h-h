@@ -59,7 +59,7 @@
                     </label>
                   </div>
                 <div class="form-check ms-auto">
-                    <input class="form-check-input" type="radio" name=" id="">
+                    <input class="form-check-input" type="radio" name="" id="">
                     <label class="form-check-label" for="">
                       Towed
                     </label>
@@ -77,7 +77,7 @@
               </div>
           </div>
           <div class="text-center">
-          <a href="" class="btn btn-warning py-3 px-5 mt-4" style="background-color: #026cc2;"><span class="d-block pe-5 wh-dot">Request Appointment</span></a></div>
+          <a href="" class="btn btn-warning py-2 px-2 mt-4" style="background-color: #026cc2;"><span class="d-block ps-5 wh-dot">Request Appointment</span></a></div>
       </form>
 </div>
 

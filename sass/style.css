@@ -86,7 +86,7 @@ body h3 {
 }
 
 .btn-warning:hover {
-  background-color: #ff7212;
+  background-color: #0b2656;
   color: #FFFFFF;
 }
 
@@ -102,7 +102,7 @@ body h3 {
 
 .btn-warning .wh-dot::after {
   position: absolute;
-  right: 0px;
+  left: 0px;
   width: 35px;
   height: 35px;
   background-color: #FFFFFF;
@@ -112,12 +112,14 @@ body h3 {
 
 .btn-warning .wh-dot::before {
   position: absolute;
-  right: 5px;
+  left: 5px;
   top: 0px;
   z-index: 22;
   content: "\f061";
   font-family: "FontAwesome";
-  color: #0b2656;
+  color: #026cc2;
+  font-size: 18px;
+  padding: 5px 4px;
 }
 
 hr {
@@ -203,6 +205,16 @@ hr {
 
 .main-slider {
   height: 100vh;
+}
+
+.main-slider .wh-dot:after {
+  right: 0 !important;
+  left: initial;
+}
+
+.main-slider .wh-dot::before {
+  right: 5px;
+  left: initial;
 }
 
 .main-slider .owl-theme .owl-nav button {
@@ -370,7 +382,7 @@ hr {
 .main-about .exper {
   background-color: #026cc2;
   bottom: -66px;
-  left: 205px;
+  left: 265px;
   z-index: 3;
 }
 
@@ -402,6 +414,16 @@ hr {
   position: absolute;
   bottom: -155px;
   right: 17px;
+}
+
+.main-about .cll-us::after {
+  position: absolute;
+  top: 34px;
+  right: -13px;
+  width: 3px;
+  height: 50%;
+  background-color: #d8d7d8;
+  content: '';
 }
 
 .main-about .cll-us i {
@@ -567,7 +589,8 @@ hr {
 }
 
 .review-sec, .review-inner {
-  background-color: #F6F6F6;
+  background-size: cover !important;
+  background-position: top center !important;
   padding-top: 45px;
   padding-bottom: 85px;
 }
@@ -587,9 +610,17 @@ hr {
   background-color: #026cc2;
 }
 
+.review-sec .rev-top .btn-warning:hover, .review-inner .rev-top .btn-warning:hover {
+  background-color: #ff7212 !important;
+}
+
+.review-sec .rev-top .wh-dot::before, .review-inner .rev-top .wh-dot::before {
+  content: '\f135';
+}
+
 .review-sec .rev-top .lft-img, .review-inner .rev-top .lft-img {
   right: 0px;
-  top: 0px;
+  top: -15px;
 }
 
 .review-sec .rev-top .rev-top-left .tile, .review-inner .rev-top .rev-top-left .tile {
@@ -618,11 +649,6 @@ hr {
   font-size: 18px;
 }
 
-.review-sec .review-wrapper, .review-inner .review-wrapper {
-  background-size: cover !important;
-  background-position: top center !important;
-}
-
 .review-sec .review-wrapper .review-main .title, .review-inner .review-wrapper .review-main .title {
   font-family: copper;
   font-size: 46px;
@@ -633,8 +659,8 @@ hr {
 
 .review-sec .review-wrapper .review-main .title::before, .review-inner .review-wrapper .review-main .title::before {
   position: absolute;
-  left: 0px;
-  bottom: 0px;
+  left: 132px;
+  bottom: -54px;
   content: '\f10d';
   font-family: 'FontAwesome';
   font-size: 85px;
@@ -702,6 +728,10 @@ hr {
           box-shadow: none;
 }
 
+.review-sec .quote-form .wh-dot::before, .review-inner .quote-form .wh-dot::before {
+  content: '\f1d8';
+}
+
 .review-sec .quote-form .quote-form-title, .review-inner .quote-form .quote-form-title {
   font-family: copper;
   font-size: 44px;
@@ -737,7 +767,7 @@ footer {
 }
 
 footer .f-marg {
-  padding-top: 185px;
+  padding-top: 182px;
 }
 
 footer .f-about {
@@ -776,9 +806,6 @@ footer .opt-hrs li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   color: #FFFFFF;
   font-size: 18px;
 }
@@ -794,9 +821,9 @@ footer .get-dir a {
 }
 
 footer .footer-bottom {
-  padding-top: 45px;
+  padding: 25px 0;
   margin-top: 45px;
-  border-top: 2px solid #FFFFFF;
+  border-top: 2px solid #000;
 }
 
 footer .footer-bottom p {
@@ -936,6 +963,14 @@ footer .footer-top .footer-top-box .dtl h6 {
   border-radius: 15px;
 }
 
+.appointment .appoint-form .btn-warning:hover {
+  background-color: #ff7212 !important;
+}
+
+.appointment .appoint-form .wh-dot::before {
+  content: '\f1d8';
+}
+
 .appointment .form-control {
   border-radius: 10px;
 }
@@ -945,6 +980,23 @@ footer .footer-top .footer-top-box .dtl h6 {
   background-image: url(../images/carer-bg.png);
   background-position: bottom right;
   background-repeat: no-repeat;
+}
+
+.carrer-card .btn-warning {
+  border-radius: 50px;
+  font-size: 18px;
+}
+
+.carrer-card .wh-dot:after {
+  left: -9px;
+  top: -8px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+}
+
+.contact-us-pg .wh-dot::before {
+  content: '\f1d8';
 }
 
 .single-page .single-detail p {

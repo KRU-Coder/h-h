@@ -51,7 +51,7 @@
                     <input type="text" class="form-control p-3" id="" placeholder="Service Needed:">
                   </div>
                   <div class="col-sm-12 col-lg-4 text-end">
-                    <a href="" class="btn btn-warning py-3 px-5 "><span class="d-block pe-5 wh-dot">NEXT STER !</span>
+                    <a href="" class="btn btn-warning py-2 px-3 "><span class="d-block pe-5 wh-dot">NEXT STER !</span>
 
                     </a>
                   </div>
@@ -301,9 +301,9 @@
 
 
   <!--Review Section-->
-  <section class="review-sec">
+  <section class="review-sec" style="background-image: url(./images/r-bg.png);">
     <div class="container">
-      <div class="rev-top px-5 py-3 position-relative shadow">
+      <div class="rev-top px-5 py-4 position-relative shadow">
         <div class="row">
           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <div class="rev-top-left">
@@ -326,12 +326,12 @@
         </div>
         <img src="./images/man-1.png" alt="" class="img-fluid lft-img position-absolute">
         
-        <a href="" class="btn btn-warning py-3 px-5 position-absolute "><span class="d-block pe-5 wh-dot">Apply Now !</span></a>
+        <a href="" class="btn btn-warning py-2 px-3 position-absolute "><span class="d-block ps-5 wh-dot">Apply Now !</span></a>
 
 
       </div>
 
-      <div class="review-wrapper mt-5" style="background-image: url(./images/r-bg.png);">
+      <div class="review-wrapper mt-5">
         <div class="row align-items-center">
           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
 <div class="quote-form p-4 shadow">
@@ -374,7 +374,7 @@
         <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Your Message"></textarea>
       </div>
     </div>
-    <a href="" class="btn btn-warning py-3 px-5 mt-5 "><span class="d-block pe-5 wh-dot">SEND MESSAGE !</span>
+    <a href="" class="btn btn-warning py-2 px-4 mt-5 "><span class="d-block ps-5 wh-dot">SEND MESSAGE !</span>
 
     </a>
   </form>
